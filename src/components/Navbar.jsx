@@ -29,7 +29,7 @@ const Navbar = () => {
                         <button className='px-8 py-3'>Register</button>
                     </div>
                 </div>
-                <div className='md:hidden' onClick={handleNavClick}>
+                <div className='md:hidden mr-4' onClick={handleNavClick}>
                     {!nav ? <MenuIcon className='w-5'/> : <XIcon className='w-5'/>}
                 </div>
             </div>
